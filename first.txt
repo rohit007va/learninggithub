@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 hello this is first file
 this is original file
+=======
+hello this is my merging file
+
+this is new branch
+my name is rohit
+>>>>>>> new
