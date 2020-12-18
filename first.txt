@@ -1,4 +1,4 @@
-hello this is first file
+hello this is my merging file
 
 this is new branch
 my name is rohit
