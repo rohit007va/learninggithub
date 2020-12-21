@@ -1,4 +1,4 @@
-$targetfolder='C:\'
+$targetfolder='C:\Users\HP\learninggithub\'
 $dataColl = @()
 gci -force $targetfolder -ErrorAction SilentlyContinue | ? { $_ -is [io.directoryinfo] } | % {
 $len = 0
@@ -10,4 +10,4 @@ Add-Member -inputObject $dataObject -memberType NoteProperty -name “foldername
 Add-Member -inputObject $dataObject -memberType NoteProperty -name “foldersizeGb” -value $foldersize
 $dataColl += $dataObject
 }
-$dataColl | Out-GridView -Title “Size of subdirectories”
+$dataColl | Out-file -FilePath 'C:\Users\HP\space.txt'
